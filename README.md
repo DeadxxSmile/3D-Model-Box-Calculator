@@ -21,56 +21,13 @@ Box-Calculator.py is a Python script that allows users to calculate the dimensio
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/Box-Calculator.git`
-2. Navigate to the project directory: `cd Box-Calculator`
+1. Clone the repository: `git clone https://github.com/DeadxxSmile/3D-Model-Box-Calculator.git`
+2. Navigate to the project directory: `cd 3D-Model-Box-Calculator`
 3. Run the script: `python Box-Calculator.py`
 
-## Examples
+## Entry Definitions
 
-### Simple Box Calculation
-
-```
-Enter the length of the box: 10
-Enter the width of the box: 8
-Enter the height of the box: 6
-
-Box Dimensions:
-Length: 10
-Width: 8
-Height: 6
-```
-
-### Box with Lid Calculation
-
-```
-Enter the length of the box: 12
-Enter the width of the box: 10
-Enter the height of the box: 8
-Enter the height of the lid: 2
-
-Box Dimensions:
-Length: 12
-Width: 10
-Height: 8
-Lid Height: 2
-```
-
-### Box with Windowed Lid Calculation
-
-```
-Enter the length of the box: 14
-Enter the width of the box: 12
-Enter the height of the box: 10
-Enter the height of the lid: 3
-Enter the number of windows: 4
-
-Box Dimensions:
-Length: 14
-Width: 12
-Height: 10
-Lid Height: 3
-Number of Windows: 4
-```
+COMING SOON!!
 
 ## License
 
