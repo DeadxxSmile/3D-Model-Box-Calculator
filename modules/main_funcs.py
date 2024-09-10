@@ -25,38 +25,35 @@ def intro_block():
 
 def build_box(box_type):
     try:
-        # Get shrinkage factor from user or based on filament type
-        shrinkage_factor = get_shrinkage_factor()
-        
         # Get box dimensions and calculate box results
         box_settings = get_box_settings()
-        box_results = calc_box(box_settings, shrinkage_factor)
+        box_results = calc_box(box_settings)
 
         if box_type == 3:
             # Get lid settings and calculate lid results
             lid_settings = get_lid_settings()
-            lid_results = calc_lid(box_results, lid_settings, shrinkage_factor)
+            lid_results = calc_lid(box_results, lid_settings)
 
             # Get window settings and calculate window results
             window_settings = get_window_settings()
             window_results = calc_window(
-                box_settings, lid_settings, window_settings, shrinkage_factor
+                box_settings, lid_settings, window_settings
             )
 
             # Output all the results
-            output_results(shrinkage_factor, box_results, lid_results, window_results)
+            output_results(box_results, lid_results, window_results)
 
         elif box_type == 2:
             # Get lid settings and calculate lid results
             lid_settings = get_lid_settings()
-            lid_results = calc_lid(box_results, lid_settings, shrinkage_factor)
+            lid_results = calc_lid(box_results, lid_settings)
 
             # Output box and lid results
-            output_results(shrinkage_factor, box_results, lid_results)
+            output_results(box_results, lid_results)
 
         elif box_type == 1:
             # Output box results
-            output_results(shrinkage_factor, box_results)
+            output_results(box_results)
 
         else:
             # If the user entered invalid input, raise an exception

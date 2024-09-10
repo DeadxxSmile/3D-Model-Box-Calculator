@@ -1,41 +1,25 @@
   ------------------------------------------------
-|             3D Model Box Calculator              | 
-  ------------------------------------------------   
+|             3D Model Box Calculator              |
+  ------------------------------------------------
 
- This script will calculate the values for a box to   
- be created using a 3D printer. You will be prompted  
- to enter the dimensions of the box, lid, and windows.
+This script will calculate the values for a box to
+be created using a 3D printer. You will be prompted
+to enter the dimensions of the box, lid, and windows.
 
-------------------------------------------------   
+  ------------------------------------------------
 
- First, pick the type of box you want to create.      
+First, pick the type of box you want to create.
     (1) Box without Lid or Windows
     (2) Box with Lid
     (3) Box with Lid and Windows
 
  Enter Box Type Option(1,2 or 3): 3
-
-------------------------------------------------    
-
- Select the filament type being used:
-    (1) PLA
-    (2) ABS
-    (3) PETG
-    (4) Nylon
-    (5) TPU
-    (6) Polycarbonate
-    (7) HIPS
-    (0) Enter Custom Shrinkage Factor
-
- Enter the number corresponding to your filament type: 0
- Enter the custom shrinkage factor: 0.994825861994
-
 -------------------------------------------------- 
 
  Enter the height of the item: 31.6
  Enter the width of the item: 24.6
  Enter the depth of the item: 20.7
- Enter the gap for the item: 0.15
+ Enter the gap for the item: 0.2
  Enter the number of items: 4
  Enter the thickness of the outer walls: 2.5
  Enter the thickness of the inner walls: 1.8
@@ -44,8 +28,8 @@
 
  Enter the depth of the lid: 6.25
  Enter the thickness of the lid walls: 1.5
- Enter the separation between the lid and the box outer wall: 2.75
- Enter the gap between the lid and the box: 0.15
+ Enter the separation between the lid and the box outer wall: 2.5
+ Enter the gap between the lid and the box: 0.1
 
 --------------------------------------------------
 
@@ -58,39 +42,40 @@
 |     Main Body Measurements     |
  --------------------------------
 
-  Item space width: 49.67
-  Box height: 73.61
-  Box width: 219.43
-  Box depth: 46.58
-  Box inner width: 209.46
-  Box inner height: 63.63
-  Box inner depth: 41.59
-  Outer wall: 4.99
-  Inner wall: 3.59
-  Item gap: 0.3
+  Item space width: 25.0
+  Box height: 37.0
+  Box width: 110.4
+  Box depth: 23.4
+  Box inner width: 105.4
+  Box inner height: 32.0
+  Box inner depth: 20.9
+  Outer wall: 2.5
+  Inner wall: 1.8
+  Item gap: 0.2
 
  --------------------------------
 |        Lid Measurements        |
  --------------------------------
 
-  Box outer depth: 74.96
-  Box remaining depth: 80.45
-  Lid height: 153.42
-  Lid width: 444.31
-  Lid depth: 12.47
-  Lid wall: 2.99
-  Lid inner height: 147.44
-  Lid inner width: 438.32
-  Lid gap: 0.3
+  Box outer depth: 14.65
+  Box remaining depth: 17.15
+  Box outer width: 1.6
+  Lid height: 40.2
+  Lid width: 113.6
+  Lid depth: 6.25
+  Lid wall: 1.5
+  Lid inner height: 37.2
+  Lid inner width: 110.6
+  Lid gap: 0.1
 
  --------------------------------
 |    Lid Window Measurements     |
  --------------------------------
 
-  Window overhang: 3.59
-  Window inset: 8.88
-  Window inner wall: 4.79
-  Outer window width: 45.48
-  Inner window width: 48.47
-  Window total height: 56.45
-  Window total width: 403.5
+  Window overhang: 1.8
+  Window inset: 4.4
+  Window inner wall: 2.4
+  Outer window width: 22.9
+  Inner window width: 24.4
+  Window total height: 28.4
+  Window total width: 101.8

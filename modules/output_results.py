@@ -13,9 +13,7 @@ def print_results(results_data):
         print(f"Traceback: {traceback.format_exc()}")
 
 
-def output_results(
-    shrinkage_factor, box_results, lid_results=None, window_results=None
-):
+def output_results(box_results, lid_results=None, window_results=None):
     try:
         if box_results is not None:
             sep = " " + "-" * 32
